@@ -6,18 +6,16 @@ PHP wrapper to Postmon API
 Utilização
 -----------
 
-* Instalação:
+### Instalação:
 
-        composer install
+`composer install`
 
-* Uso:
+### Uso:
 
 ```php
 <?php
 
-
 $client = new \Postmon\Client;
-
 $endereco = $client->buscarCEP("36037000");
 
 var_dump($endereco);
