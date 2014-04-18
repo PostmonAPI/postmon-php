@@ -1,0 +1,19 @@
+{
+    "name" : "postmon/postmon",
+    "description" : "PHP wrapper to Postmon API",
+    "authors" : [
+        {
+            "name" : "Claudson Oliveira",
+            "email" : "claudsonweb@gmail.com"
+        }
+    ],
+    "license" : "MIT",
+    "require": {
+        "php" : ">=5.4.0"
+    },
+    "autoload": {
+        "psr-0" : {
+            "Postmon" : "src\/"
+        }
+    }
+}
