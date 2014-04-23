@@ -1,7 +1,7 @@
-Postmon-php [![Build Status](https://travis-ci.org/cloudson/postmon-php.svg)](https://travis-ci.org/cloudson/postmon-php)
+Postmon-php [![Build Status](https://travis-ci.org/PostmonAPI/postmon-php.svg)](https://travis-ci.org/PostmonAPI/postmon-php)
 ==============
 
-PHP wrapper to Postmon API
+PHP wrapper for Postmon API
 
 Utilização
 -----------
