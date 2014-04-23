@@ -17,7 +17,7 @@ class Client
         return new \Postmon\Entity\Endereco($response);
     }
 
-    private function get($uriRelative)
+    protected function get($uriRelative)
     {
         $url = sprintf("%s%s", static::BASE_URL, $uriRelative);
         $ch = curl_init($url);
